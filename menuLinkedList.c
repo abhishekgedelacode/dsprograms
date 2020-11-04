@@ -178,7 +178,7 @@ void last_delete()
 	{
 		head = NULL;
 		free(head);
-		printf("\n only node of the deleted \n");
+		printf("\n only node is deleted \n");
 	}
 	else
 	{
