@@ -20,6 +20,8 @@ int main()
   scanf("%d", &ele);
 
   linearSearch(arr, ele);
+
+  return 0;
 }
 
 void linearSearch(int arr[], int ele)
