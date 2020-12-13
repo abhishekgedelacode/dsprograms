@@ -4,7 +4,7 @@
 struct node
 {
   int data;
-  strcut node *ptr;
+  struct node *ptr;
 } * top, *temp, *top1;
 
 int topelement();
@@ -73,7 +73,7 @@ void main()
 
 void create()
 {
-  top = NUll;
+  top = NULL;
 }
 
 void push(int data)
@@ -100,7 +100,7 @@ void pop()
 
   if (top1 == NULL)
   {
-    printf("\n stcack empty \n");
+    printf("\n stack empty \n");
   }
   else
   {
